@@ -42,36 +42,26 @@ let order=(fruit_name,call_production)=>{
 
 let productions=()=>{
     setTimeout(()=>{
-        console.log("Production Started.......")
-
-    },0)
-
-    setTimeout(()=>{
-        console.log("Cut The Fruits")
-
-    },2000)
-
-    setTimeout(()=>{
-        console.log(`${stock.liquid[0]} and ${stock.liquid[1]} Added`)
-
-    },1000)
-
-    setTimeout((()=>{
-        console.log("Machine Started")
-
-    }),1000)
-
-    setTimeout(()=>{
-        console.log(`${stock.holder[0]} Selected`)
-    },2000)
-
-   setTimeout(()=>{
-    console.log(`${stock.toppings[0]} was Selected`)
-   },3000)
-
-   setTimeout(()=>{
-    console.log("Ice Cream was Served ...........")
-   },1000)
+        console.log("production has started")
+        setTimeout(()=>{
+          console.log("The fruit has been chopped")
+          setTimeout(()=>{
+            console.log(`${stock.liquid[0]} and ${stock.liquid[1]} Added`)
+            setTimeout(()=>{
+              console.log("start the machine")
+              setTimeout(()=>{
+                console.log(`Ice cream placed on ${stock.holder[1]}`)
+                setTimeout(()=>{
+                  console.log(`${stock.toppings[0]} as toppings`)
+                  setTimeout(()=>{
+                    console.log("serve Ice cream")
+                  },2000)
+                },3000)
+              },2000)
+            },1000)
+          },1000)
+        },2000)
+      },0)
 
 }
 
