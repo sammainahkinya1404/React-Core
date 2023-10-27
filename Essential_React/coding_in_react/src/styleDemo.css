@@ -1,0 +1,15 @@
+.big {
+     background-color: red;
+     height: 200px;
+    width: 200px;
+    font-size: 30px;
+    color: blue;
+    }
+  
+    .small {
+    background-color: green;
+    height: 40px;
+     width: 40px;
+     font-size: 14px;
+     color: black;
+     }
