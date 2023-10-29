@@ -1,0 +1,33 @@
+.Navbar{
+    display: flex;
+    margin-top:0px;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(42, 42, 44);
+    justify-content:center;
+
+}
+.Navbar>ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    margin-right: 10px;
+    
+
+}
+.Navbar >ul>.items{
+    padding: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+.Navbar >ul>.items >a{
+    color: antiquewhite;
+    
+}
+.Navbar >ul>.items >a:hover{
+    color: blue;
+    
+}
